@@ -1,0 +1,83 @@
+
+.left-side{
+    float: left;
+    width: 25%;
+    background-color: aqua;
+}
+ .class1{
+    padding: 10px;
+    margin-left: 10%;
+    color: white;
+}
+ .notoboto{
+    margin-left: 10%;
+   color: white;
+   padding: 10px;
+  
+} 
+.search{
+    margin-left: 10%;
+    color: white;
+}
+.list{
+    margin-left:20%;
+    color: white;
+}
+.border{
+    border-radius: 100%;
+    margin-left: 10%;
+    color: white;
+    
+}
+.space{
+    padding: 20px;
+    color:white;
+
+} 
+.color{
+    color: white;
+}
+.right-side{
+    float: right;
+    width: 75%;
+     background-color: beige;
+    
+}
+.right-side1{
+    float: left;
+    width: 40%;
+    background-color: aliceblue;
+}
+.btn6{
+    margin-left: 85%;
+    
+}
+.bar1[role="progressbar"] {
+    --size: 6rem;
+    --fg: #369;
+    --bg: rgb(164,202,240);
+    --pgpercentage: var(--value);
+    animation: growprogressBar 3s 1 forwards;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background:
+     radial-gradient(closest-side,white 80%,transperent 0 99.9%, white 0),
+    conic-gradient(var(--fg) calc(var(--pgpercentage)* 1%),var(--bg)0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: calc(var(--size)/5);
+    color: var(--fg);
+    display: inline-block;
+    padding-top: 20px;
+    margin-top: 20px;
+
+
+}
+
+
+
+
+

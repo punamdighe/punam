@@ -1,0 +1,140 @@
+.left-side{
+    float: left;
+    width: 25%;
+    background-color: deepskyblue;
+}
+.class1{
+    padding: 10px;
+    margin-left: 10%;
+    color: white;
+}
+.notoboto{
+    margin-left: 10%;
+   color: white;
+   padding: 30px;
+  
+}
+.border3{
+    border: radius 40px;
+}
+.search{
+    margin-left: 10%;
+    color: white;
+}
+.list{
+    margin-left:20%;
+    color: white;
+
+    
+}
+.border{
+    border-radius: 100%;
+    margin-left: 10%;
+    color: white;
+  
+
+}
+.space{
+    padding: 50px;
+    color:white;
+
+} 
+.right-side{
+    float: right;
+    width: 75%;
+     background-color: beige;
+    
+}
+.right-side1{
+    float: left;
+    width: 40%;
+    background-color: lavender;
+}
+
+.fight-side4{
+    float: right;
+    padding-right: 100px;
+    color: white;
+
+}
+.color{
+    color: white;
+}
+.dash{
+    padding-right: 20px;
+    color: white;
+
+    
+
+}
+.img1{
+ margin-left: 10px; 
+ color: white;
+
+}
+.img2{
+
+}
+
+.data{
+   background-color: deepskyblue;
+   color: white;
+}
+
+
+  
+.member{
+    height: 5%;
+    width: 20px;
+    text-align: center;
+
+} 
+.dotted{
+   
+    text-align: center; 
+     padding-top: 1%; 
+     height: 50vh;
+   color: lightblue;
+   
+} 
+.moto{
+    margin-bottom: 70%;
+
+}
+.photo{
+    margin-left: 20%;
+    }
+    .photo3{
+       padding-right: 50%;
+    }
+    .photo4{
+
+
+    }
+    .btn6{
+        margin-left: 85%;
+        
+    }
+    
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

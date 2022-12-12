@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/style/style4.css">
+
+</head>
+
+<body>
+    <div class="full-page">
+        <div class="navbar">
+            <div>
+                <a href="https://www.w3 school.com/">Seek Coding</a>
+                <!--this if for the logo you can place a img here--->
+
+            </div>
+            <nav>
+                <ul id="menuItems">
+                    <li><a href="#">Home</a></li>
+
+                    <li><a href="#">About</a></li>
+
+                    <li><a href="#">Services</a></li>
+
+                    <li><a href="#">Contact</a></li>
+                    <li><button class="loginbtn" onclick="document.getElementById('login-form').style.display='block'"
+                            style="width:auto;">Login</button>
+                    </li>
+                </ul>
+            </nav>
+            <!---navigation bar is finished lets 
+                run and see-->
+            <!--now let us make the styling 
+                for the navigation bar--->
+
+        </div>
+        <div id="login-form" class="login-page">
+            <div class="form-box">
+                <div class="button-box">
+                    <div id="btn"></div>
+                    <button type="button" onclick="login()" class="toggle-btn">Log In</button>
+                    <button type="button" onclick="Register()" class="toggle-btn">Register</button>
+                </div>
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="email id" required>
+                    <input type="password" class="input-field" placeholder="Enter password" required>
+                    <input type="checkbox" class="checbox"> <span>Remember password</span>
+                    <button type="submit" class="submit-btn">Log in</button>
+                </form>
+                <!--creating the registration form-->
+                <form id="Register" class="input-group-
+        register">
+                    <input type="text" class="input-field" placeholder="first Name" required>
+                    <input type="text" class="input-field" placeholder="Last Name" required>
+                    <input type="text" class="input-field" placeholder="email Id" required>
+                    <input type="text" class="input-field" placeholder="Enter password" required>
+                    <input type="text" class="input-field" placeholder="confirm password" required>
+                    <input type="checkbox" class="checbox"> <span>I agree to the terms and condition</span>
+                    <button type="submit" class="submit-btn">register</button>
+                </form>
+                <!----now let us style for the form page---->
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
